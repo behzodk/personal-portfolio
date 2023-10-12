@@ -21,8 +21,8 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Behzod`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I am Fullstack Developer. I am from Uzbekistan and still live there. I am 16 years old and currently studying at Jizzakh Presidential School. But as a programmer I studied on pdp.uz platform. However I learn most of the things on YouTube and Google, which majority of Programmers use and love.</p>
+                <h1>{`Hi! I'm Shohjahon`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Student", "Friend", "Brother" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>I am a student from Uzbekistan and still live there, trying to study abroad. I am 17 years old and currently studying in Jizzakh Presidential School. My hobbies are watching movies, cycling, enjoying by reading books. Currently I have scored 7.5 from SAT, 1380 from SAT.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
