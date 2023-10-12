@@ -9,7 +9,7 @@ export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
-  const toRotate = [ "Web Developer", "Project Manager", "Student" ];
+  const toRotate = [ "Brother", "Friend", "Student" ];
   const period = 2000;
 
   return (
