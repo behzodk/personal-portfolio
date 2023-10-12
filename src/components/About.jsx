@@ -47,12 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Firstly, I'm a student of Presidential school in Jizzakh. Additionally
-        I'm a skilled software developer with experience in Python and JavaScript,
-        and expertise in frameworks like React, Node.js, Three.js and Django. I'm 
-        a quick learner and collaborate closely with clients to create efficient,
-        scalable, and user-friendly solutions that solve real-world problems. 
-        Let's work together to bring your ideas to life!
+        Meet a vibrant and intellectually curious 17-year-old boy from Jizzakh, a city in Uzbekistan. 
+        He's a student at the prestigious Presidential School, where his passion for learning truly shines. 
+        His favorite pastime? Reading. 
+        Whether it's diving into the pages of classic literature, exploring the realms of science fiction, or uncovering the mysteries of history, he's always eager to expand his horizons through the written word. 
+        With a zest for knowledge and a bright future ahead, this young scholar embodies the promise of a promising academic journey.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
